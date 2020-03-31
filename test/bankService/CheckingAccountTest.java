@@ -40,9 +40,6 @@ public class CheckingAccountTest {
         when(mockCheck.getAmount()).thenReturn(150.00);
         when(mockCheck.getCheckNumber()).thenReturn(4321);
 
-
-
-        ;lknb
         //When
         checkingAccount.processCheck(mockCheck);
 
